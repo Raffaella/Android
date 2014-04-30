@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Calcolatrice</string>
+    <string name="hello">Calcolatrice</string>
+    <string name="primo">null</string>
+    <string name="secondo">null</string>
+    <string name="somma">+</string>
+    <string name="sottrazione">-</string>
+    <string name="divisione">/</string>
+    <string name="moltiplicazione">*</string>
+    <string name="hello2">Risultato della Operazione</string>
+    <string name="back">Back</string>
+    <string name="risultato">risultato=</string>
+    <string name="exit">exit</string>
+    <string name="canc">Canc</string>
+   
+   
+    
+    
+
+</resources>

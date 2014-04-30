@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+ <TextView
+        android:id="@+id/tv_calcolatrice"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+    
+
+    <!-- I create two Linearlayout -->
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="223dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <!-- we can see the values that we have choose -->
+
+        <EditText
+            android:id="@+id/et_primo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@string/primo"
+            android:inputType="number"
+            android:background="@android:drawable/editbox_background" />
+
+        <EditText
+            android:id="@+id/et_secondo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@string/secondo"
+            android:inputType="number"
+            android:background="@android:drawable/editbox_background" />
+    </LinearLayout>
+
+
+    <LinearLayout
+     	xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       
+        android:orientation="horizontal" >
+
+        <!-- we can see the button of operation -->
+
+        <Button
+            android:id="@+id/bt_somma"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/somma"
+            android:textSize="12sp" />
+        
+         <Button                      
+		        android:id="@+id/bt_sottrazione"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textSize="12sp"
+            android:text="@string/sottrazione"
+        />
+
+         <Button
+             android:id="@+id/bt_divisione"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/divisione"
+             android:textSize="12sp" />
+         
+          <Button
+             android:id="@+id/bt_moltiplicazione"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/moltiplicazione"
+             android:textSize="12sp" />
+        
+    </LinearLayout>
+
+    <Button
+       	   android:id="@+id/bt_exit"
+     	   android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_gravity="center_horizontal"
+           android:text="@string/exit" />
+    
+	
+     </LinearLayout>
